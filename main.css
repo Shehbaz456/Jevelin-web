@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //responsive */
+@media screen and (max-width: 600px) {
+    .left-dis p{
+    font-size: 30px;
+    padding: 0 48%;
+    }
+    .heading-content h2 span{
+        font-size: 60px;
+        /* padding: 50px; */
+
+    }
+    .slide2-disp {
+    padding: 45px;
+    }
+}
+
+@media (min-width: 1536px) { 
+    body{
+        /* width: 1600px; */
+        /* text-align: center; */
+    }
+}
