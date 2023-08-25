@@ -342,20 +342,20 @@ color: #08d7bd;
     padding: 0 50px;
   }
   .card1-blue-01{
-    background-image: url(/image/blue-01.png_id=469);
+    background-image: url(./image/blue-01.png_id=469);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
   }
   .card1-blue-02{
-    background-image: url(image/blue-02.png_id=470);
+    background-image: url(./image/blue-02.png_id=470);
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: contain;
     overflow: hidden;
   }
   .card1-blue-03{
-    background-image: url(image/blue-03\ .png_id=471);
+    background-image: url(./image/blue-03\ .png_id=471);
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: contain;
@@ -457,7 +457,7 @@ color: #08d7bd;
 /* <!--------- start slide6 display -----------------> */
 /* start display-6 */
 .dis-6{
-  background-image: url(/image/subscribe\ image\ .jpg);
+  background-image: URL(./image/subscribe\ image\ .jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
