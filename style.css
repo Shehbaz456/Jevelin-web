@@ -36,6 +36,7 @@ nav {
   float: right;
   line-height: 80px;
   cursor: pointer;
+    display:none;
 }
 
 #check {
@@ -626,6 +627,11 @@ footer {
 .email-btn-div{
   width: 90%;
 }
+
+.left-dis {
+  text-align: center;
+}
+
 
 } 
 
