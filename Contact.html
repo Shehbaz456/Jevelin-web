@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/image/android-chrome-192x192.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <title>jevelin contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contact_dis1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .contact-info h2 {
+            color: rgb(89, 88, 88);
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            /* padding: 0 4rem; */
+            margin: 20px;
+            margin-inline: auto;
+            text-align: left;
+        }
+
+        .contact-info p {
+            font-size: 1rem;
+            font-family: 'Poppines', sans-serif;
+        }
+
+        .icons-info {
+            display: flex;
+            gap: 2.5rem;
+            padding-inline-start: 30px;
+        }
+
+        .icons-info h3 {
+            font-size: 1rem;
+            font-family: 'Poppines', sans-serif;
+
+        }
+
+        .icons-info p {
+            font-size: 0.8rem;
+            font-family: 'Poppines', sans-serif;
+        }
+
+        .Cv-text {
+            font-size: 1rem;
+            font-family: 'Poppines', sans-serif;
+            font-weight: bold;
+            font-size: 0.8rem;
+            text-align: left;
+            font-family: 'Poppines', sans-serif;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        #mail {
+            width: 50%;
+            height: 40px;
+            /* line-height: 69px; */
+            margin: 30px 0px;
+            padding: 0px 26px;
+            border-radius: 22px;
+            border: 2px solid red;
+            margin-top: 30px;
+        }
+
+        #fr-name,
+        #sr-name {
+            width: 25%;
+            height: 39px;
+            padding: 0 26px;
+            border-radius: 22px;
+            border: 2px solid red;
+        }
+
+        #fr-name:hover,
+        #sr-name:hover {
+            color: #8b8b8b !important;
+            transition: 0.3s all ease-in-out;
+            border: 2px solid pink;
+        }
+
+        ::placeholder {
+            font-size: 25px;
+            font-size: medium;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+
+        .contact_dis2 {
+            text-align: center;
+        }
+
+        #textarea {
+            width: 50%;
+            height: 145px;
+            border-radius: 12px;
+            border: 2px solid red;
+            padding: 0 26px;
+            line-height: 20px;
+            margin-bottom: 30px;
+        }
+
+        #textarea:hover {
+            border: 2px solid rgb(238, 41, 228);
+        }
+
+        #textarea ::placeholder {
+            padding-top: 30px;
+        }
+
+        @media(max-width:1123px) {
+            .google-map {
+                width: 100%;
+                height: auto;
+                contain: content;
+            }
+        }
+
+        @media (max-width:768px) {
+            #mail {
+                width: 80%;
+                border: 2px solid red;
+                margin-top: 0px;
+            }
+
+            #fr-name,
+            #sr-name {
+                display: block;
+                margin: 30px 0px;
+                margin-inline: auto;
+                width: 80%;
+
+            }
+
+            #textarea {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start nav bar -->
+    <header class="container-header">
+        <div class="nav" style="background-color: #fff;">
+            <div class="right">
+                <img src="/image/logo2.png" alt="loding">
+            </div>
+            <nav class="left">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="/Contact.html"> Contact</a></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter "></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass "></i>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End nav bar -->
+
+    <section>
+        <div class="contact_dis1" style="background-color: #f4f4f4;">
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.0531304496!2d76.81303963947188!3d28.643795376060307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1678477297430!5m2!1sen!2sin"
+                    width="700" height="620" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-info">
+                <!-- <div class="empty_space" style="height: 50px;"></div> -->
+                <h2>CONTACT US</h2>
+                <div class="empty_space" style="height: 40px;"></div>
+                <p>We will be happy to answer your questions</p>
+                <div class="empty_space" style="height: 40px;"></div>
+                <div class="icons-info-flex">
+                    <div class="icons-info">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot fa-2xl col"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <div class="empty_space" style="height: 10px;"></div>
+                            <p>Street number and town name 23</p>
+                        </div>
+                    </div><br><br>
+                    <div class="icons-info">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope fa-2xl col"></i>
+                        </div>
+                        <div>
+                            <h3>E-mail</h3>
+                            <div class="empty_space" style="height: 10px;"></div>
+                            <p>info@brandname.com</p>
+                        </div>
+                    </div><br><br>
+                    <div class="icons-info">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone fa-2xl col"></i>
+                        </div>
+                        <div>
+                            <h3>Phone number</h3>
+                            <div class="empty_space" style="height: 10px;"></div>
+                            <p>425 521 432</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="empty_space" style="height: 50px;"></div>
+        <div class="contact_dis2">
+            <div class="sh-heading-dis-5">
+                <h2>JOIN OUR TEAM</h2>
+                <p>Apply for a job</p>
+            </div>
+            <div class="empty_space" style="height: 70px;"></div>
+
+            <input type="text" placeholder="Enter name" id="fr-name"><span><input type="text"
+                    placeholder="Enter Surname" id="sr-name"></span>
+            <input type="text" placeholder="Enter E-mail id" id="mail">
+            <textarea name="#" id="textarea" placeholder="Leave your Message"></textarea>
+            <br>
+            <p class="Cv-text">Please attach your CV:</p><input type="file">
+
+            <div class="dis5-btn" style="text-align: center; margin: 50px 0;">
+                <a href="#"><span>Submit</span></a>
+            </div>
+        </div>
+        <div class="empty_space" style="height: 150px;"></div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--------- start footer display ----------------->
+    <footer class="footer">
+        <div class="foot-2">
+            <h2>Follow Us</h2>
+            <p>#jevelincreative</p>
+        </div>
+        <div class="empty-space" style="height: 75px;"></div>
+        <div class="foot-1">
+            <div class="ele2 contain_box">
+                <h2>Office</h2>
+                <p>Office San Diego — 845 15th Street, Suite 906 San Diego, CA 92120 Mountain View — 1398 Villa St
+                    Mountain View, CA 96841</p>
+            </div>
+            <div class="ele2  contain_box">
+                <h2>Start a conversation</h2>
+                <p>hi@creativeagency.com +1.858.755.6922</p>
+            </div>
+            <div class="ele2  contain_box">
+                <h2>Social</h2>
+                <i class="fa-brands fa-instagram fa-xl"></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+                <i class="fa-brands fa-youtube fa-xl"></i>
+            </div>
+            <div class="ele2  contain_box">
+                <h2>Latest Projects</h2>
+                <p>#jevelincreative</p>
+            </div>
+        </div>
+
+    </footer>
+    <div style="color: #ffffff; background-color: #252525; padding: 30px 0px; text-align: center; ">
+        <p>Copyright © 2017 JevelinTheme - Theme by Ultimo </p>
+    </div>
+    <!--------- end footer display ----------------->
+
+</body>
+
+</html>
